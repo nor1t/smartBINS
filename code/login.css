@@ -112,10 +112,11 @@ body {
 }
 
 header {
+  align-items: center;
   margin-top: 0;
   list-style: none;
   display: flex;
-  justify-content:flex-end;
+  justify-content:center;
   margin: 0px;
   max-block-size: 100%;
   background: grey;

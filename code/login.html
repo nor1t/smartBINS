@@ -18,10 +18,7 @@
     <nav class="nq-nav-bar">
         <ul class="nq-nav-links">
              
-              <li><a href="index.html"><i class="fa-solid fa-house"></i>Faqja kryesore</a></li>
-              <li><a href="about.html"><i class="fa-solid fa-circle-info"></i>Rreth nesh</a></li>
-              <li><a href="contact.html"><i class="fa-solid fa-phone"></i>Kontakti</a></li>
-              <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></li>
+              
 
          </ul>
       </nav>
@@ -31,12 +28,13 @@
         <h2 id="titi">Kyçu në llogarinë tuaj</h2>
         <h3>Shkruaj të dhënat e tua</h3>
 
-        <form class="nq-login-form">
-            <input type="text" required placeholder="Emri i përdorusesit">
-            <input type="password" required placeholder="Fjalëkalimi">
+        <form class="nq-login-form" action="login.php" method="POST">
+            <input type="text" name="username" required placeholder="Emri i përdoruesit">
+            <input type="password" name="password" required placeholder="Fjalëkalimi">
             <a href="signup.html">Nuk keni një llogari? Regjistrohuni këtu</a>
             <button id="buti" type="submit">KYÇU</button>
-        </form>
+          </form>
+          
         <script src="signup.js"></script>
     </div>
 </div>
@@ -44,7 +42,7 @@
     <div class="nq-footer">
       <div class="nq-botnav">
         <ul>
-              <li><a href="index.html"><i class="fa-solid fa-house"></i><strong>Faqja kryesore</strong></a></li>
+            
               
               <li><a href="about.html"><i class="fa-solid fa-circle-info"></i><strong>Rreth nesh</strong></a></li>
               <li><a href="contact.html"><i class="fa-solid fa-phone"></i><strong>Kontakti</strong></a></li>

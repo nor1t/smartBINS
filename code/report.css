@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://s.hdnux.com/photos/01/46/67/45/26966366/5/1920x0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+  }
+  header {
+  margin-top: 0;
+  list-style: none;
+  display: flex;
+  justify-content:flex-end;
+  margin: 0px;
+  max-block-size: 100%;
+  background: grey;
+  padding: 0px;
+}
+
+  .nq-logo {
+  height: 110px;
+  margin-right: auto;
+  padding: 0px;
+}
+header nav ul li a {
+  text-decoration:none;
+  color: white;
+  margin: 30px;
+  padding: 8px;
+}
+.nq-nav-bar{
+  display: flex;
+  align-items:flex-end ;
+  padding: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  font-size: 12px;
+}
+.nq-navbar li{
+  color: 000;
+}
+.nq-nav-links a:hover{
+  border: 1 px solid white;
+  padding: 8px;
+  border-radius: 8px;
+  background-color:white;
+  color:black;
+  transform: scale(2);
+  transition: transform 0.25s;
+
+}
+.nq-nav-links ul{
+  list-style-type: none;
+}
+.nq-nav-links li{
+  display: inline;
+  font-weight: 700;
+}
+
+  
+  .nq-container{
+    color: white;
+    text-align: center;
+    border: 3px solid rgba(0, 0, 0, 0.201);
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.221);
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom:5%;
+    backdrop-filter: blur(10px);
+  }
+  .nq-ABOUTUS{
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color:white;  
+    border: 3px solid rgba(47, 47, 47, 0.381);
+    border-top: none;
+    border-top-right-radius: 13em 13em 0 0 / 3em 3em 0 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: #ccc;
+    padding: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: solid;
+  }
+  
+  .nq-footer {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    background-color: grey;
+    margin-bottom: -20px;
+  }
+  
+  .nq-botnav ul{
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .nq-botnav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nq-botnav ul li{
+    display: inline-block;
+    padding: 0 15px;
+  }
+  
+  .nq-footer .nq-social {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .nq-footer .nq-social a{
+    width: 35px;
+    height: 35px;
+    margin: 0 15px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.7;
+  }
+  .nq-botnav ul li a:hover{
+    padding: 5px 10px;
+     border: 1px solid #333;
+     border-radius: 5px;
+     background-color: #fff;
+     color: #333;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     z-index: 1;
+  }
+  
+  .nq-footer .nq-social a:hover{
+    opacity: 1;
+  }
+  
+  .nq-footer p{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #komplet {
+  color: white;
+  border: 3px solid rgba(0, 0, 0, 0.201);
+  box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.221);
+  border-radius: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom:5%;
+  backdrop-filter: blur(10px);
+}
+
+  #para{
+    color: white;
+  }
+
+  #butoni {
+    background-color: GREEN;
+    color: WHITE;
+    border-color: green;
+  }
+
+  @media (max-width: 768px) {
+  .nq-homeh2,
+  .nq-homebutton {
+    width: 90%;
+  }
+
+  .nq-sneakbutton {
+    width: 90%;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nq-nav-bar ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  .nq-nav-links li {
+    display: block;
+    margin: 10px 0;
+  }
+}

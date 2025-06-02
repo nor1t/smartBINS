@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>smartBINS | Harta</title>
+    <link rel="stylesheet" href="gjendja.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6V3Y1cWw8iifu6LaDLuXKa-ipwyTZZ4k&callback=initMap"> </script>
+    <script src="gjendja.js"></script>
+    <meta charset="UTF-8">
+</head>
+<body>
+  <header>
+        <a id="logoja" href="index.html" >
+            <img class="nq-logo" src="foto/blogo.png" alt="logo">
+            </a>
+    </div>
+    <nav class="nq-nav-bar">
+        <ul class="nq-nav-links">
+             
+              <li><a href="index.html"><i class="fa-solid fa-house"></i>Faqja kryesore</a></li>
+              <li><a href="about.html"><i class="fa-solid fa-circle-info"></i>Rreth nesh</a></li>
+              <li><a href="contact.html"><i class="fa-solid fa-phone"></i>Kontakti</a></li>
+              <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></li>
+
+         </ul>
+      </nav>
+    </header>
+
+    <h2>smartBINS - PRISHTINË GJENDJA E KONTINIERËVE NË HARTË</h1>
+    <h3>Këtu paraqiten 20 pikat kryesore të kontinierëve në qytet!</h3>
+    <div id="map"></div>
+        <div class="container">
+  <!-- LEFT SIDE: LEGEND -->
+  <div class="sidebar left">
+    <h3>Legjenda:</h3>
+    <p><span class="legend-box green"></span> Më pak se 50%</p>
+    <p><span class="legend-box orange"></span> 50% - 80%</p>
+    <p><span class="legend-box red"></span> Më shumë se 80%</p>
+  </div>
+
+  <div class="main-content">
+    <h2>Lista e kontinierëve:</h2>
+    <ul id="bin-list"></ul>
+  </div>
+
+  <div class="sidebar right" id="stats-panel">
+    <h3>Statistikat:</h3>
+    <p id="low-count">🟢 Pak të mbushur: 6</p>
+    <p id="med-count">🟠 Mesatarisht: 8</p>
+    <p id="high-count">🔴 Shumë të mbushur: 6</p>
+    <p id="high-count"> TOTALI: 20</p>
+  </div>
+</div>
+    
+    <ul id="bin-list"></ul>
+    <script src="gjendja.js"></script>
+    <footer>
+    <div class="nq-footer">
+      <div class="nq-botnav">
+        <ul>
+              <li><a href="index.html"><i class="fa-solid fa-house"></i><strong>Faqja kryesore</strong></a></li>
+              
+              <li><a href="about.html"><i class="fa-solid fa-circle-info"></i><strong>Rreth nesh</strong></a></li>
+              <li><a href="contact.html"><i class="fa-solid fa-phone"></i><strong>Kontakti</strong></a></li>
+              <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i><strong>Kyçu</strong></a></li>
+              <br><br>
+              
+             
+              <li><a href="report.html"><i class="fa-solid fa-bug"></i><strong>Raportoni një problem</strong></a></li><br>
+        </ul>
+    </div>
+
+    <div class="nq-social">
+      <a href="https://www.instagram.com/norit_qyqalla/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/norit.qyqalla"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.youtube.com/channel/UCkmZi9Zk67-99bB3CJkqrTg"><i class="fab fa-youtube"></i></a>
+    </div>
+   
+    <p> &copy; 2025 All Rights Reserved </p>
+   
+</div>
+
+
+  </footer>
+</body>
+</html>

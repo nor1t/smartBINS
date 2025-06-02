@@ -18,12 +18,7 @@
     <nav class="nq-nav-bar">
         <ul class="nq-nav-links">
              
-              <li><a href="index.html"><i class="fa-solid fa-house"></i>Faqja kryesore</a></li>
-              
-              <li><a href="about.html"><i class="fa-solid fa-circle-info"></i>Rreth nesh</a></li>
-              <li><a href="contact.html"><i class="fa-solid fa-phone"></i>Kontakti</a></li>
-              <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></li>
-
+             
          </ul>
       </nav>
     </header>
@@ -32,15 +27,16 @@
         <h2 id="titi">Regjistro llogari të re</h2>
         <h3>Plotëso të dhënat e tua</h3>
 
-        <form class="nq-login-form">
-            <input type="text" required placeholder="Emri i plotë">
-            <input type="email" required placeholder="Email-i">
-            <input type="text" required placeholder="Zgjedh emrin e përdoruesit">
-            <input type="password" required placeholder="Fjalëkalimi">
-            <input type="password" required placeholder="Komfirmoni fjalëkalimin">
+        <form class="nq-login-form" action="signup.php" method="POST">
+            <input type="text" name="fullname" required placeholder="Emri i plotë">
+            <input type="email" name="email" required placeholder="Email-i">
+            <input type="text" name="username" required placeholder="Zgjedh emrin e përdoruesit">
+            <input type="password" name="password" required placeholder="Fjalëkalimi">
+            <input type="password" name="confirm_password" required placeholder="Konfirmoni fjalëkalimin">
             <a href="login.html">Ju keni llogari? Kyçuni këtu</a>
             <button id="buti" type="submit">REGJISTROHU</button>
-        </form>
+          </form>
+          
         <script src="signup.js"></script>
     </div>
 </div>
@@ -48,7 +44,7 @@
     <div class="nq-footer">
       <div class="nq-botnav">
         <ul>
-              <li><a href="index.html"><i class="fa-solid fa-house"></i><strong>Faqja kryesore</strong></a></li>
+             
               <li><a href="about.html"><i class="fa-solid fa-circle-info"></i><strong>Rreth nesh</strong></a></li>
               <li><a href="contact.html"><i class="fa-solid fa-phone"></i><strong>Kontakti</strong></a></li>
               <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i><strong>Kyçu</strong></a></li>

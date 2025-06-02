@@ -1,0 +1,272 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://images.unsplash.com/photo-1584673961397-be26e009333f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjBmaWVsZHxlbnwwfHwwfHx8MA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.nq-container{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+}
+
+header {
+  list-style: none;
+  display: flex;
+  justify-content:flex-end;
+  margin: 0;
+  max-block-size: 100%;
+  background: rgb(0,0,0,0.9);
+}
+
+.nq-logo {
+  height: 120px;
+  margin-right: auto;
+  padding: 25px;
+}
+
+header nav ul li a {
+  text-decoration:none;
+  color: white;
+  margin: 30px;
+  padding: 8px;
+}
+
+.nq-nav-bar{
+  display: flex;
+  align-items:flex-end ;
+  padding: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  font-size: 12px;
+}
+
+.nq-navbar li{
+  color: 000;
+
+}
+.nq-nav-links a:hover{
+  border: 1 px solid white;
+  padding: 8px;
+  border-radius: 8px;
+  background-color:white;
+  color:black;
+  transform: scale(2);
+  transition: transform 0.25s;
+
+}
+
+.nq-nav-links ul{
+  list-style-type: none;
+
+}
+.nq-nav-links li{
+  display: inline;
+}
+header {
+  margin-top: 0;
+  list-style: none;
+  display: flex;
+  justify-content:flex-end;
+  margin: 0px;
+  max-block-size: 100%;
+  background: grey;
+  padding: 0px;
+}
+
+  .nq-logo {
+  height: 110px;
+  margin-right: auto;
+  padding: 0px;
+}
+header nav ul li a {
+  text-decoration:none;
+  color: white;
+  margin: 30px;
+  padding: 8px;
+}
+.nq-nav-bar{
+  display: flex;
+  align-items:flex-end ;
+  padding: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  font-size: 12px;
+}
+.nq-navbar li{
+  color: 000;
+}
+.nq-nav-links a:hover{
+  border: 1 px solid white;
+  padding: 8px;
+  border-radius: 8px;
+  background-color:white;
+  color:black;
+  transform: scale(2);
+  transition: transform 0.25s;
+
+}
+.nq-nav-links ul{
+  list-style-type: none;
+}
+.nq-nav-links li{
+  display: inline;
+  font-weight: 700;
+}
+
+.nq-footer{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-color: grey;
+}
+
+.nq-botnav ul{
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+  padding: 40px;
+}
+
+.nq-botnav ul li a{
+  text-decoration: none;
+  color: white;
+}
+.nq-botnav ul li a:hover{
+ padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.nq-botnav ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.nq-footer .nq-social {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.nq-footer .nq-social a{
+  width: 35px;
+  height: 35px;
+  margin: 0 15px;
+  font-size: 30px;
+  color: rgb(232, 226, 226);
+  text-align: center;
+  display: inline-block;
+  opacity: 0.7;
+  background-color: transparent;
+  border-radius: 12px;
+}
+
+.nq-footer .nq-social a:hover{
+  opacity: 1;
+}
+
+.nq-footer p{
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #F2F2F2;
+}
+
+
+main {
+max-width: 800px;
+margin: 20%;
+border-radius: 15px;
+padding: 50px;
+box-shadow: 0px 0px 5px 0px white;
+backdrop-filter: blur(10px);
+color: white;
+}
+
+section {
+margin-bottom: 50px;
+}
+
+h1, h2 {
+text-align: center;
+}
+
+form {
+text-align: left;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+box-sizing: border-box;
+
+border-radius: 10px;
+}
+
+input[type="submit"] {
+background-color: white;
+color: black;
+padding: 10px 20px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+border-radius: 10px;
+}
+
+#headeri {
+  font-weight: 700;
+  font-family: sans-serif
+}
+
+@media (max-width: 768px) {
+  .nq-homeh2,
+  .nq-homebutton {
+    width: 90%;
+  }
+
+  .nq-sneakbutton {
+    width: 90%;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nq-nav-bar ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  .nq-nav-links li {
+    display: block;
+    margin: 10px 0;
+  }
+}
